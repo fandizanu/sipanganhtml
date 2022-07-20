@@ -1,0 +1,8 @@
+.header {
+  background-color: #e3f2fd;
+  background: #03e3fc;
+  background: -moz-linear-gradient(bottom, #8fa5f5 0%, #6703fc 100%);
+  background: -webkit-linear-gradient(bottom, #8fa5f5 0%, #6703fc 100%);
+  background: -ms-linear-gradient(bottom, #8fa5f5 0%, #6703fc 100%);
+  background: linear-gradient(top, #8fa5f5 0%, #6703fc 100%);
+}
