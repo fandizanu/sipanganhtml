@@ -8,28 +8,44 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
   <!-- Font Header -->
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/index.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"></script>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark header">
+      <nav class="navbar navbar-expand-lg navbar-scroll fixed-top shadow-0">
         <div class="container">
-          <a class="navbar-brand" href="#" style="font-family: 'Pacifico', cursive"
-            >Sipangan <br />
-            Sistem Informasi Data Pangan Kabupaten Bulungan</a
-          >
-
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link" href="index.html">Home</a>
-              <a class="nav-link" href="data.html">Data Sektor Pertanian</a>
-              <a class="nav-link" href="tentang.html">Tentang</a>
-              <a class="nav-link" href="admin/index.html">Login</a>
-            </div>
+          <a class="navbar-brand" href="{{url('/')}}">Sistem Informasi Data Pangan </a>
+          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data Sektor Pertanian</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tentang.html">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!">Login</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
     </header>
 
-    <div class="Beranda data-sektor">
+    <div class="Beranda data-sektor mt-5">
       <div class="container sektor">
         <h1>Kategori</h1>
         <h3>Sub Sektor</h3>
