@@ -15,3 +15,40 @@ body {
   background: -ms-linear-gradient(bottm, #03e3fc 0%, #6703fc 100%);
   background: linear-gradient(to top, #03e3fc 0%, #6703fc 100%);
 }
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar BEFORE scroll */
+.navbar-scroll {
+  background: #03e3fc;
+  background: -moz-linear-gradient(bottom, #03e3fc 0%, #6703fc 100%);
+  background: -webkit-linear-gradient(bottom, #03e3fc 0%, #6703fc 100%);
+  background: -ms-linear-gradient(bottm, #03e3fc 0%, #6703fc 100%);
+  background: linear-gradient(to top, #03e3fc 0%, #6703fc 100%);
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+  font-family: "Pacifico", cursive;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+.navbar-brand {
+  font-size: unset;
+  height: 3.5rem;
+}
